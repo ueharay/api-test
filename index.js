@@ -27,3 +27,5 @@ app.get("/api/customers", (req, res) => {
 app.get("/api/customers/:id", (req, res) => {
     const customer = customers.find((c) => c.id === parseInt(req.params.id));
 });
+
+//git : https://github.com/ueharay/api-test.git
